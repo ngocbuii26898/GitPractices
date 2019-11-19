@@ -1,0 +1,2 @@
+GLLib version 0.16.68 <=> revision 9581
+GLLib svn:  https://terminus.mdc.gameloft.org/vc/collection_code/GLLib/trunk

@@ -1,0 +1,11 @@
+1/ Check out GLLib reviesion 9581 (25/07/2013) link: https://terminus.mdc.gameloft.org/vc/collection_code/GLLib/trunk
+2/ Build GLLib:
+    - Copy file "_config.xml.tmpl" -> "_config.xml"
+
+    - Opeb file "_config.xml" and edit:
+      + <sdk name="midp2" path="d:\dev\j2me\wtk\v2_2_0"/>   --> change path:  path="C:\DevTools\WTK25" or path="C:\DevTools\WTK22"
+      + <sdk name="j2se"  path="d:\dev\j2se\v1_6_0_01"/>       -->  change path path="C:\DevTools\j2sdk1.6.0"
+
+    - GLLib Build command:
+      + make lib midp2 debug
+      + make lib midp2 release

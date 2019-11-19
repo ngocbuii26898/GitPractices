@@ -1,0 +1,1 @@
+call GLLibOnToolsDepotUpdate.bat GLLibOnToolsDepot   > /make_GLLibOnToolsDepot__.log 2>&1 

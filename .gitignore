@@ -1,0 +1,3 @@
+/build, /bin, /debug
+
+*.sdf, *.txt except files in /data/text
